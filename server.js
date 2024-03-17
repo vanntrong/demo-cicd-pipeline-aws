@@ -6,7 +6,7 @@ const port = 8080;
 
 app.get("/", (req, res) => {
   res.send(
-    `<body style='background-color:#283E5B'><h1 style='color: orange;text-align:center'>Hello AWS al ${os.hostname()}</h1></body>`
+    `<body style='background-color:#283E5B'><h1 style='color: orange;text-align:center'>Hello AWS als ${os.hostname()}</h1></body>`
   );
 });
 
